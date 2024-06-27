@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tela de solicitação de senha</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link href="css/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" >
+    <style>
+    body{
+      background-color: #403e6d;
+    }
+    #segunda-linha{
+      background-color: #82c4ed;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+
+    #col-icone-temperatura{
+      color: #ffff;
+      font-size: 65px;
+
+    }
+
+    #informacao-data{
+      color: #ffff;
+      font-size: 35px;
+      border-left: #ffff 1px solid;
+    }
+    
+    #informacao-data .row{
+      justify-content: center;
+    }
+
+    #col-cidade{
+      color: #ffff;
+      font-size: 45px;
+
+    }
+    #col-cidade .cidadee{
+      font-size: 15px !important;
+    }
+
+    .linha-informacoes{
+      padding: 5px;
+    }
+
+    .btn-balcao{
+      background-color: #b1d03e;
+      width: 50px !important;
+    }
+
+    .btn-tipo-atendimento{
+      background-color: #ffff;
+      width: 200px;
+    }
+    
+    .btn-senha{
+      color: #ffff ;
+    }
+    .btn-senha{
+      background-color: #4177b0;
+      border:#ffff 7px solid;
+      border-radius: 35px;
+    }
+    .btn-group{
+      height: 60px;
+      margin: 5px;
+      display: flex;
+      align-items: stretch;
+    }
+
+    .btn-group i{
+      width: auto;
+    }
+
+    .btn-group2{
+      height: 30px !important;
+      color: #ffff !important;
+    }
+
+    .btn-group2 .btn{
+      color: #ffff !important;
+    }
+    .btn-titulo-balcao{
+      text-align: right;
+      
+    }
+    .container-fluid{
+      margin-top: 10px;
+    }
+   
+
+    </style>
+
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-8">
+            <div class="row"><video controls>
+              <source src="VIDEOS/video01.mp4" type="video/mp4" />
+              <p>
+                O seu navegador não tem suporte a vídeo HTML. Em vez disso, aqui está
+                <a href="VIDEOS/video01.mp4" download="meuVideo.mp4">o link do vídeo</a>.
+              </p>
+            </video>
+            </div>
+            <div class="row linha-informacoes">
+              <div class="col" id="col-cidade">
+                <div class="row cidadee">Goiânia</div>
+                <div class="row">28º</div>             
+              </div>  
+              <div class="col" id="col-icone-temperatura">
+                <i class="bi bi-cloud-sun-fill"></i>
+              </div>  
+              <div class="col" id="informacao-data">
+                <div class="row">26/06/2024</div>
+                <div class="row">16:30:55</div>             
+              </div>  
+
+            </div>
+
+          </div>
+          <div class="col-4">
+            <div class="row">
+            <img src="img/vista1.jpg" width="500px"/>
+          </div>
+            <div class="btn-group btn-group2" role="group" aria-label="Basic example">
+              <button type="button" class="btn">SENHA</button>
+              <button type="button" class="btn">ATENDIMENTO</button>
+              <button type="button" class="btn btn-titulo-balcao">BALCÃO</button>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-senha">A 023</button>
+              <button type="button" class="btn btn-tipo-atendimento"><div class="row">Atendimento ao Municipio</div>
+                <div class="row">Normal <i class="bi bi-person-vcard"></i></div>
+              </button>
+              <button type="button" class="btn btn-primary btn-balcao">1</button>
+            </div>
+            
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-senha">A 023</button>
+              <button type="button" class="btn btn-tipo-atendimento"><div class="row">Atendimento ao Municipio</div>
+                <div class="row">Normal <i class="bi bi-person-vcard"></i></div>
+              </button>
+              <button type="button" class="btn btn-primary btn-balcao">1</button>
+            </div>
+            
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-senha">A 023</button>
+              <button type="button" class="btn btn-tipo-atendimento">
+                <div class="row">Atendimento ao Municipio</div>
+                <div class="row">Prioritário <i class="bi bi-postcard-heart"></i> </div>
+              </button>
+              <button type="button" class="btn btn-primary btn-balcao">2</button>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-senha">A 023</button>
+              <button type="button" class="btn btn-tipo-atendimento">
+                <div class="row">Atendimento ao Municipio</div>
+                <div class="row">Prioritário <i class="bi bi-postcard-heart"></i> </div>
+              </button>
+              <button type="button" class="btn btn-primary btn-balcao">2</button>
+            </div>
+
+        </div>
+
+        <div class="row" id="segunda-linha">
+          <marquee>Este texto vai "rolar" da direita para esquerda</marquee>
+        </div>
+
+    </div>
+    
+
+
+    
+      
+    <script src="js/bootstrap.bundle.min.js" ></script>
+  </body>
+</html>
